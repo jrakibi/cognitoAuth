@@ -4,8 +4,7 @@ PS: Images are not dipslayed here, to see the full article that describe this so
 https://medium.com/@jamalerrakibi/understanding-oauth2-0-openid-authentication-using-cognito-in-angular-559a36adcc8a
 
 
-Understanding OAuth2.0, OpenId (authentication) using Cognito in Angular
-
+# Understanding OAuth2.0, OpenId (authentication) using Cognito in Angular
 
 Here i will share with you the process to set up authorization, authentication for your application using AWS Cognito. AWS Cognito let's you add user sign up , sign in and access control to your web and mobile app, it supports sign-in with social identity provider such as facebook, google and amazon.
 
