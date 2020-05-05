@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cognitoAuth"
+    }
+  },
+  "defaultProject": "cognitoAuth",
+  "cli": {
+    "analytics": "87101237-e3e5-4bf9-a4d7-7643299f5e05"
+  }
 }

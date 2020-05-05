@@ -1,16 +1,19 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
-};
+  production: false,
+  client_id: '<YOUR CLIENT ID>',
+  client_secret: '<YOUR CLIENT SECRET>',
+  loginUrl: 'https://<YOUR DOMAIN NAME>/login?' +
+    'client_id=<YOUR CLIENT ID>&' +
+    'response_type=code&' +
+    'scope=openid+email+phone' +
+    '&redirect_uri=http://localhost:4200/callback',
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+  cognitoTokenURL: 'https://<YOUR DOMAIN NAME>/oauth2/token',
+
+  redirectURL: 'http://localhost:4200/callback',
+  logout: 'https://<YOUR DOMAIN NAME>.amazoncognito.com/logout?' +
+    'client_id=<YOUR CLIENT ID>&' +
+    'response_type=code&' +
+    'scope=openid+email+phone' +
+    '&redirect_uri=http://localhost:4200/callback'
+};
